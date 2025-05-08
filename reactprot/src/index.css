@@ -1,0 +1,14 @@
+@import "tailwindcss";
+.loginContainer{
+    @apply flex bg-white p-6 sm:p-8 sm:w-30 sm:h-30 md:w-40 md:h-40 rounded-xl size-25 shadow-md items-center justify-center transition-transform duration-200 hover:scale-105;
+    } 
+    .passion{
+        @apply min-w-[180px] w-40 h-50 md:w-50 md:h-60 bg-gray-800 rounded-xl p-4 items-center justify-center hover:scale-105 transition-transform space-y-4 flex;
+    }
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
