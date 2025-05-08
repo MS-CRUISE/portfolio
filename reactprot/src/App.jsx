@@ -7,7 +7,7 @@ function App() {
     return (
       <div className="min-h-screen bg-black text-white">
         <Routes>
-          <Route path="/portfolio" element={<Login/>}></Route>
+          <Route path="/" element={<Login/>}></Route>
           <Route path="/passion" element={<LaPassion/>}></Route>
           <Route path="/passion/gym" element={<Gym/>} />
 <Route path="/passion/exploring" element={<Travelling/>} />
